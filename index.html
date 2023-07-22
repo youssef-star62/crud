@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+</head>
+<body>
+  <div class="container">
+   <h1 class="py-2 text-center">Bookmarker</h1> 
+   <h2 class="text-center"><i class="fa-solid fa-bookmark my-2 "></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark my-2 "></i></h2>
+  <div class="my-3">
+    <label  for="pName"><i class="fa-solid fa-book "></i> Site Name</label>
+    <input placeholder="Bookmark Name" type="text" id="pName" class="form-control">
+  </div> 
+  
+  <div class="my-3">
+    <label for="pPrice"> <i class="fa-solid fa-link"></i> Site URL</label>
+    <input placeholder="Website URL" type="text" id="pPrice" class="form-control">
+  </div>  
+
+  <div class="text-center ">
+  <button onclick="addProduct()" class="btn btn-submit  text-center">Submit </button>
+  </div>
+  </div>
+
+  <div class="container">
+    <table class="table table-striped">
+      <thead >
+        <tr>
+          <td>index</td>
+          <td>Website Name</td>
+          <!-- <td>Product Price</td>
+          <td>Product Category</td>
+          <td>Product Descripiton</td> -->
+          <td>Visit</td>
+          <td>Delete</td>
+        </tr>
+      </thead>
+      <tbody id="tData">
+     <!-- <td><button class="btn btn-danger">Update</button></td>
+     <td><button class="btn btn-success">Delete</button></td> -->
+      </tbody>
+    </table>
+  </div>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/js.js"></script>
+</body>
+</html>

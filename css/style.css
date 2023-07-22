@@ -1,0 +1,21 @@
+body{
+  background-color: #F7ECDE;
+
+}
+h1{
+  font-family: Pacifico , cursive;
+  font-size: 50px;
+  color: #352e28;
+}
+
+button .btn-submit{
+  width: 15%;
+}
+ .btn-submit{
+  background-color: #cb4f2d;
+  color: aliceblue;
+}
+h2{
+  color: #47A65A;
+  font-size: 30px;
+}
